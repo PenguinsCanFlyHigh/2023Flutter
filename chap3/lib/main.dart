@@ -11,11 +11,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const Text(
-        'Hello World!',
-        style: Textstyle(fontSize:100),
-      ),
+      title: "Flutter Demo",
+      home: HelloPage()
     );
   }
 }
 
+class HelloPage extends StatefulWidget{
+  State<HelloPage> createState() => _HelloPageState();
+}
+
+class _HelloPageState extends State<HelloPage> {
+  Widget build(BuildContext context){
+    return(Text('Finally I made it!!!!'));
+  }
+}
