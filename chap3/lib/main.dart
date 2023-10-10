@@ -6,23 +6,29 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Flutter Demo",
-      home: HelloPage()
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(),
     );
   }
 }
 
-class HelloPage extends StatefulWidget{
-  State<HelloPage> createState() => _HelloPageState();
-}
-
-class _HelloPageState extends State<HelloPage> {
-  Widget build(BuildContext context){
-    return(Text('Finally I made it!!!!'));
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Hello World'),
+      ),
+      body: Text(
+        'Hello World',
+        style: TextStyle(fontSize: 40),
+      ),
+    );
   }
 }
