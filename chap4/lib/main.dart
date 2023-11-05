@@ -8,10 +8,12 @@ import 'CardTeset.dart';
 import 'CenterTest.dart';
 import 'ContainerTest.dart';
 import 'ListViewTest.dart';
+import 'PageViewTest2.dart';
 import 'PageViewUI.dart';
 import 'SizeBoxTest.dart';
 import 'StackTest.dart';
 import 'PuzzleUI.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +40,8 @@ class MyApp extends StatelessWidget {
     // home: SizeBoxTest(),
     // home: ButtonTest(),
     //   home: ListViewTest(),
-      home: CardTest(),
+    //    home: CardTest(),
+      home: PageViewTest2(),
     );
   }
 }
