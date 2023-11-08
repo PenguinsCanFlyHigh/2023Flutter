@@ -7,6 +7,7 @@ import 'BottomNavigationTest.dart';
 import 'CardTeset.dart';
 import 'CenterTest.dart';
 import 'ContainerTest.dart';
+import 'ContainerTest2.dart';
 import 'ListViewTest.dart';
 import 'PageViewTest2.dart';
 import 'PageViewUI.dart';
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
     // home: ButtonTest(),
     //   home: ListViewTest(),
     //    home: CardTest(),
-      home: PageViewTest2(),
+    //   home: PageViewTest2(),
+      home: ContainerTest2(),
     );
   }
 }
