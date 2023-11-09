@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'AlertDlg.dart';
 import 'CheckBoxTest.dart';
+import 'DatePicker.dart';
 import 'DropDownTest.dart';
+import 'EventTest.dart';
+import 'HeroTest.dart';
 import 'RadioListTest.dart';
 import 'TestFieldTest.dart';
 
@@ -12,7 +16,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     ThemeData t = new ThemeData(
@@ -27,7 +31,11 @@ class MyApp extends StatelessWidget {
       // home: TestFieldTest(),
       // home: CheckBoxTest(),
       // home: RadioListTest(),
-      home: DropDownTest(),
+      // home: DropDownTest(),
+      // home: AlertDlg(),
+      // home: DatePickerTest(),
+      // home: EventTest(),
+      home: HeroTest(),
     );
 
     return s;
