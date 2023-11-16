@@ -24,7 +24,7 @@ class _FirstPageState extends State<FirstPage> {
       ),
       body: ElevatedButton(
         child: Text("다음 페이지로 이동"),
-        onPressed: (){
+        onPressed: () async {
           final person = new Person("김유신", 40);
 
           Navigator.push(//Navigator.push는 누르면 화면 건너가는 것
