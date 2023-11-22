@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'MyHomePage.dart';
 
+final dummyItems = ['assets/karina01.jpg',
+  'assets/karina02.jpg',
+  'assets/karina03.jpg'];
+
 void main() {
   runApp(const MyApp());
 }
